@@ -1,7 +1,9 @@
 {
-  "checked_at": "2026-09-28T18:13:52Z",
+  "checked_at": "2026-09-28T18:36:12Z",
   "http_status": 200,
   "status": "ok",
   "reasons": [],
+  "degraded": [],
+  "invariant_violations": [],
   "source": "trading.worksightai.org/health"
 }
