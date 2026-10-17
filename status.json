@@ -1,9 +1,31 @@
 {
-  "checked_at": "2026-10-17T18:45:31Z",
+  "checked_at": "2026-10-17T21:14:30Z",
   "http_status": 200,
   "status": "ok",
   "reasons": [],
-  "degraded": [],
+  "degraded": [
+    "ibkr_candle_feed/BE: 11 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/CCJ: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/CEG: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/CLF: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/CRSP: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/ENPH: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/ETN: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/GEV: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/HUBB: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/ITRI: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/NEE: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/NVT: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/ONDS: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/PED: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/POWL: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/PWR: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/SEDG: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/SM: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/SMR: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/VRT: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried",
+    "ibkr_candle_feed/VST: 10 consecutive failures (threshold 5) - connecting and failing every cycle, silently retried"
+  ],
   "invariant_violations": [],
   "source": "trading.worksightai.org/health"
 }
